@@ -1,0 +1,29 @@
+
+.splash-text{
+  background: black;
+  opacity: .5;
+  height: 300px;
+  width: 60vw;
+}
+.splash{
+  background-image: url('kale.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.text-muted{
+  font-size: 14px;
+}
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+@media only screen and (min-width: 768px) {
+  #scroll-button{
+    margin-top: 100px;
+  }
+}
