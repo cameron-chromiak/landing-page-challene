@@ -1,13 +1,18 @@
-
-.splash-text{
-  background: black;
-  opacity: .5;
-  height: 300px;
-  width: 60vw;
+#scroll-button{
+  background: #E6D862
+}
+.card-cont{
+  display: flex;
+}
+.card-text{
+  font-size: 20px
+}
+ul{
+  list-style-type: none;
 }
 .splash{
-  background-image: url('kale.jpg');
-  background-position: center;
+  background-image: url('https://www.healthline.com/hlcmsresource/images/AN_images/benefits-of-kale-732x549-thumbnail.jpg');
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
@@ -22,8 +27,17 @@ header {
 section {
   padding: 150px 0;
 }
+*{
+  font-family: "Helvetica"
+}
 @media only screen and (min-width: 768px) {
   #scroll-button{
     margin-top: 100px;
+  }
+  .lead{
+    font-size: 26px
+  }
+  .splash-text{
+    font-size: 24px;
   }
 }
